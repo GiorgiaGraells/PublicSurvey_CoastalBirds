@@ -11,25 +11,19 @@ knitr::opts_chunk$set(
 )
 ```
 
-# PublicSurvey_CoastalBirds
+### PublicSurvey_CoastalBirds
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of PublicSurvey_CoastalBirds is to ...
+The goal of PublicSurvey_CoastalBirds is to make available the code how our survey was made.
+Two files contain the parts of the survey: EncuestasAvesRegistro and EncuestasAvesusuario
 
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
+#### EncuestasAvesRegistro
+A part of the survey that contain the tablet the researcher is using and save most of the data of the survey
 
-```{r cars}
-summary(cars)
-```
+#### EncuestasAvesUsuario
+It contains what the interviewee is seeing. It shows pictures of coastal environments and bird species and generate their are shown in a random order 
 
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this. You could also use GitHub Actions to re-render `README.Rmd` every time you push. An example workflow can be found here: <https://github.com/r-lib/actions/tree/v1/examples>.
 
-You can also embed plots, for example:
 
-```{r pressure, echo = FALSE}
-plot(pressure)
-```
-
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub.
